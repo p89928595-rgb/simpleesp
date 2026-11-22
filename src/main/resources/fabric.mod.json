@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "esp",
+  "version": "1.0.0",
+  "name": "Simple ESP",
+  "description": "Zeigt Spieler durch Wände und in einer Liste oben rechts.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.esp.EspClient"]
+  },
+  "mixins": ["esp.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "fabric-api": "*"
+  }
+}
